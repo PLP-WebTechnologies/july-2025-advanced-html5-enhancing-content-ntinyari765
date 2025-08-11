@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Flowers</title>
+    </head>
+    <body>
+        <header>
+            <h1>Flowers</h1>
+            <p>This page includes a list and table of flowers, including media and a form for us to know about your preferences</p>
+
+        </header>
+
+        <section>
+            <h2>Popular Flowers</h2>
+            <ul>
+                <li>Rose</li>
+                <li>Peonies</li>
+                <li>Daisy</li>
+                <li>Sunflower</li>
+                <li>Lily</li>
+            </ul>
+            <h2>Flower Information Table</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Flower</th>
+                        <th>Color</th>
+                        <th>Meaning</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Rose</td>
+                        <td>Red, White, Pink</td>
+                        <td>Love, Passion</td>
+                    </tr>
+                    <tr>
+                        <td>Peony</td>
+                        <td>Pink, White, Red</td>
+                        <td>Prosperity, Romance</td>
+                    </tr>
+                    <tr>
+                        <td>Daisy</td>
+                        <td>White, Pink</td>
+                        <td>Innocence, Purity</td>
+                    </tr>
+                    <tr>
+                        <td>Sunflower</td>
+                        <td>Yellow</td>
+                        <td>Happiness, Positivity</td>
+                    </tr>
+                    <tr>
+                        <td>Lily</td>
+                        <td>Pink, White</td>
+                        <td>Renewal, Purity</td>
+                    </tr>
+                </tbody>
+            </table>
+            <h3>Flower Image</h3>
+            <img src=""https://images.pexels.com/photos/165925/pexels-photo-165925.jpeg alt="Sunflowers" width="300" height="200">
+            <img src="https://images.pexels.com/photos/4825/red-love-romantic-flowers.jpg" alt="A bunch of roses" width="300" height="200">
+            <p>Here's a short video showcasing pink and white peonies</p>
+            <video width="320" height="320" controls>
+                <source src="https://videos.pexels.com/video-files/4502468/4502468-uhd_1440_2732_25fps.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </section>
+
+        <section>
+            <h2>Flower Preferences Form</h2>
+            <form action="#"method="post">
+                 <fieldset>
+                <legend>Personal Information</legend>
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname" placeholder="Jane Doe" required minlength="3">
+
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" placeholder="example@email.com" required>
+
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required>
+            </fieldset>
+            <fieldset>
+                <legend>Flower Preferencies</legend>
+                <label for ="favorite-flower">Favorite Flower:</label>
+                <input type="text" id="favorite-flower" name="favorite-flower" placeholder="e.g., Rose" required>
+
+
+                <label for="flower-color">Preferred Color:</label>
+                <select id="flower-color" name="flower-color" required>
+                    <option value="">Select a color</option>
+                    <option value="pink">Pink</option>
+                    <option value="red">Red</option>
+                    <option value="white">White</option>
+                    <option value="yellow">Yellow</option>
+                </select>
+                
+                <legend>Additional Information</legend>
+                <label for="reason">Why do you love this flower?</label>
+                <textarea id="reason" name="reason" rows="4" placeholder="Your answer..." required></textarea>
+
+                <label>
+                    <input type="checkbox" name="newsletter" value="yes" checked>
+                    Subscribe to flower updates
+                </label>
+            </fieldset>
+
+            <button type="submit">Submit</button>
+            </fieldset>
+
+            </form>
+        </section>
+        <footer>
+            <p>&copy; 2025 Winjoy Ntinyari</p>
+        </footer>
+
+    </body>
+</html>
